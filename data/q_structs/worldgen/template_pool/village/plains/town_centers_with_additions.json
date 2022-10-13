@@ -1,0 +1,168 @@
+{
+  "name": "q_structs:village/plains/town_centers_with_additions",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/plains/wooden_bunker_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/plains/wooden_bunker_2",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/plains/enderman_shelter_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/plains/enderman_shelter_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/plains/castle_1",
+        "processors": "q_structs:ruinify/low",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/plains/altar_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/plains/pedestal_1",
+        "processors": "q_structs:ruinify/high",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_1",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_2",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "q_structs:village/plains/town_center_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:village/plains/town_centers/plains_fountain_01",
+        "processors": "minecraft:mossify_20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:village/plains/town_centers/plains_meeting_point_1",
+        "processors": "minecraft:mossify_20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:village/plains/town_centers/plains_meeting_point_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "minecraft:village/plains/town_centers/plains_meeting_point_3",
+        "processors": "minecraft:mossify_70_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/plains/zombie/town_centers/plains_fountain_01",
+        "processors": "minecraft:zombie_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/plains/zombie/town_centers/plains_meeting_point_1",
+        "processors": "minecraft:zombie_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/plains/zombie/town_centers/plains_meeting_point_2",
+        "processors": "minecraft:zombie_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/plains/zombie/town_centers/plains_meeting_point_3",
+        "processors": "minecraft:zombie_plains",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

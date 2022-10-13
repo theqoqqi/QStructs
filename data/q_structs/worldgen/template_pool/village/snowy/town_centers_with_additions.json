@@ -1,0 +1,150 @@
+{
+  "name": "q_structs:village/snowy/town_centers_with_additions",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/wooden_bunker_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/wooden_bunker_2",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/enderman_shelter_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/enderman_shelter_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/castle_1",
+        "processors": "q_structs:ruinify/low",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/altar_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/snowy/pedestal_1",
+        "processors": "q_structs:ruinify/high",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_1",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_2",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "q_structs:village/snowy/town_center_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 125,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/town_centers/snowy_meeting_point_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 75,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/town_centers/snowy_meeting_point_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/town_centers/snowy_meeting_point_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/zombie/town_centers/snowy_meeting_point_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/zombie/town_centers/snowy_meeting_point_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/zombie/town_centers/snowy_meeting_point_3",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

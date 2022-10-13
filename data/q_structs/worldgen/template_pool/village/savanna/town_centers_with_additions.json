@@ -1,0 +1,168 @@
+{
+  "name": "q_structs:village/savanna/town_centers_with_additions",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/wooden_bunker_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/wooden_bunker_2",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/enderman_shelter_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/enderman_shelter_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/castle_1",
+        "processors": "q_structs:ruinify/low",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/altar_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/pedestal_1",
+        "processors": "q_structs:ruinify/high",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_1",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_2",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "q_structs:village/savanna/town_center_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/town_centers/savanna_meeting_point_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/town_centers/savanna_meeting_point_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 125,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/town_centers/savanna_meeting_point_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 125,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/town_centers/savanna_meeting_point_4",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_1",
+        "processors": "minecraft:zombie_savanna"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_2",
+        "processors": "minecraft:zombie_savanna"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_3",
+        "processors": "minecraft:zombie_savanna"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_4",
+        "processors": "minecraft:zombie_savanna"
+      }
+    }
+  ]
+}

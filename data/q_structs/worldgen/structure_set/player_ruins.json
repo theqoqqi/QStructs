@@ -1,0 +1,50 @@
+{
+  "structures": [
+    {
+      "structure": "q_structs:player_ruins/birch_forest",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/desert",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/forest",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/jungle",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/plains",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/savanna",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/snowy",
+      "weight": 1
+    },
+    {
+      "structure": "q_structs:player_ruins/taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 4,
+    "salt": 1743695948
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "q_structs:bushes/oak_foliage_bush",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

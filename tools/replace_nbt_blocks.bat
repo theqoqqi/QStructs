@@ -1,0 +1,1 @@
+python "tools/replace_nbt_blocks.py" %*

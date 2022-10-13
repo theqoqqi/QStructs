@@ -1,0 +1,24 @@
+{
+  "name": "q_structs:ancient_towns/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_1",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_2",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

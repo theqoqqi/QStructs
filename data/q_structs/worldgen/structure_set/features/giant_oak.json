@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "q_structs:features/giant_oak",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 2,
+    "salt": 1472653894
+  }
+}

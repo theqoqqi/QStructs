@@ -1,0 +1,107 @@
+{
+  "name": "q_structs:ancient_towns/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/decor/decor_1",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/decor/decor_2",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "q_structs:ancient_towns/decor/decor_3",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/decor/decor_4",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/decor/decor_5",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "feature": "q_structs:vanilla/oak",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "feature": "q_structs:vanilla/forest_rock",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "feature": "q_structs:vanilla/patch_large_fern",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "feature": "q_structs:tall_grass",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "feature": "q_structs:bushes/oak_foliage_bush",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "feature": "q_structs:vanilla/flower_plain",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "feature": "q_structs:vanilla/flower_flower_forest",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    }
+  ]
+}

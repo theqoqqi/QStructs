@@ -1,0 +1,14 @@
+{
+  "name": "q_structs:features/bushes/oak_foliage_bush",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "feature": "q_structs:bushes/oak_foliage_bush",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    }
+  ]
+}

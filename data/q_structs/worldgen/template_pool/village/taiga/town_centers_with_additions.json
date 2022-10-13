@@ -1,0 +1,132 @@
+{
+  "name": "q_structs:village/taiga/town_centers_with_additions",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/wooden_bunker_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/wooden_bunker_2",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/enderman_shelter_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/enderman_shelter_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/castle_1",
+        "processors": "q_structs:ruinify/low",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/altar_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/taiga/pedestal_1",
+        "processors": "q_structs:ruinify/high",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_1",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:ancient_towns/town_centers/town_center_2",
+        "processors": "q_structs:ancient_town_building",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "q_structs:village/taiga/town_center_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_2",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_1",
+        "processors": "minecraft:zombie_taiga"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_2",
+        "processors": "minecraft:zombie_taiga"
+      }
+    }
+  ]
+}

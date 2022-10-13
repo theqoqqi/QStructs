@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "q_structs:features/forgotten_crafting_table",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 1,
+    "separation": 0,
+    "salt": 1472653894
+  }
+}

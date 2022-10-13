@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "q_structs:ancient_ruins/size_7",
+      "weight": 2
+    },
+    {
+      "structure": "q_structs:ancient_ruins/size_6",
+      "weight": 4
+    },
+    {
+      "structure": "q_structs:ancient_ruins/size_5",
+      "weight": 3
+    },
+    {
+      "structure": "q_structs:ancient_ruins/size_4",
+      "weight": 2
+    },
+    {
+      "structure": "q_structs:ancient_ruins/size_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 8,
+    "salt": 1646207470
+  }
+}

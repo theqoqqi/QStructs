@@ -1,0 +1,1 @@
+python "tools/fix_datapack_name.py" %*

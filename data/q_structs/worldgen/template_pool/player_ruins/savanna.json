@@ -1,0 +1,69 @@
+{
+  "name": "q_structs:player_ruins/savanna",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/wooden_bunker_1",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/wooden_bunker_2",
+        "processors": "q_structs:mossify/20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/enderman_shelter_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/enderman_shelter_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/castle_1",
+        "processors": "q_structs:ruinify/low",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/altar_1",
+        "processors": "q_structs:oldify/low",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "q_structs:player_ruins/savanna/pedestal_1",
+        "processors": "q_structs:ruinify/high",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

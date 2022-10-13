@@ -1,0 +1,150 @@
+{
+  "name": "q_structs:ancient_towns/streets",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/straight_1",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/straight_2",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/straight_3",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/straight_4",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/fork_1",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/fork_2",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/fork_3",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/fork_4",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/corner_1",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/corner_2",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/corner_3",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/corner_4",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/crossroad_1",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/crossroad_2",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/crossroad_3",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "q_structs:ancient_towns/streets/crossroad_4",
+        "processors": "q_structs:ancient_town_street",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
